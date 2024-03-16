@@ -3,6 +3,10 @@
   margin-top: 50px;
 }
 
+body{
+  background-color: #B5C0D0;
+}
+
 .pokemon {
   width: 300px;
   border: 1px solid #ccc;
@@ -10,6 +14,8 @@
   padding: 20px;
   margin: 10px;
   display: inline-block;
+  background-color: #F5E8DD;
+  
 }
 
 .pokemon img {
@@ -19,13 +25,13 @@
 }
 
 .language-buttons {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .language-buttons button {
   margin: 5px;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
   background-color: #76ABAE;
   color: #fff;
@@ -41,6 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .stats-column {
@@ -56,12 +63,14 @@
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
+  
 }
 
 .type {
   padding: 5px 10px;
   border-radius: 20px;
   color: white;
+  
 }
 
 header{
